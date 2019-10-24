@@ -11,7 +11,7 @@ const column = {
   padding: '10px 10px ',
 }
 
-const Cards = () => (
+const LanguageQuiz = () => (
   <div style={row}>
     <div style={column}>
       <Image
@@ -30,4 +30,4 @@ const Cards = () => (
   </div>
 );
 
-export default Cards;
+export default LanguageQuiz;

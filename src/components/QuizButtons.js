@@ -1,9 +1,5 @@
 import React from 'react';
 
-const quizContainer = {
-  right: 80,
-}
-
 const QuizButtons = (props) => (
   <div>
     <button>{props.possibleAnswers[0]}</button>

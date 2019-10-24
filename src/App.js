@@ -1,10 +1,10 @@
 import React from 'react';
-import Cards from './components/Cards';
+import LanguageQuiz from './components/LanguageQuiz';
 
 function App() {
   return (
     <div>
-      <Cards />
+      <LanguageQuiz />
     </div>
   );
 }
