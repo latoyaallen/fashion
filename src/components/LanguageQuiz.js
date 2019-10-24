@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from './Image';
 import Quiz from './Quiz';
-import quiz from '../data/quiz';
+import spanishQuiz from '../data/spanishQuiz';
 
 const row = {
   display: 'flex',
@@ -15,16 +15,16 @@ const LanguageQuiz = () => (
   <div style={row}>
     <div style={column}>
       <Image
-        key={quiz[0].id}
-        image={quiz[0].image}
+        key={spanishQuiz[0].id}
+        image={spanishQuiz[0].image}
       />
     </div>
     <div style={column}>
       <Quiz
-        key={quiz[0].id}
-        question={quiz[0].question}
-        correctAnswer={quiz[0].correctAnswer}
-        possibleAnswers={quiz[0].possibleAnswers}
+        key={spanishQuiz[0].id}
+        question={spanishQuiz[0].question}
+        correctAnswer={spanishQuiz[0].correctAnswer}
+        possibleAnswers={spanishQuiz[0].possibleAnswers}
       />
     </div>
   </div>

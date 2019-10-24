@@ -1,6 +1,6 @@
 const boatBarcelona= require('./images/boatBarcelona.png')
 
-const quiz = [
+const spanishQuiz = [
   {
     "id": "1",
     "image":boatBarcelona,
@@ -31,4 +31,4 @@ const quiz = [
   },
 ]
 
-export default quiz;
+export default spanishQuiz;
