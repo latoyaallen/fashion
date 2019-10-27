@@ -1,2 +1,2 @@
 # peach.haus
-Spanish/French/German Practice
+Social Networking App for Black Women
