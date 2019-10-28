@@ -3,6 +3,7 @@ import React from 'react';
 const previewContainer = {
   border: '2px solid #25262b',
   borderRadius: '10px',
+  padding: '10px' //generate space around content
 }
 
 
