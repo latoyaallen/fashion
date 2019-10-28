@@ -13,9 +13,8 @@ const PopularPosts = (props) => (
     <h1>Peach.Haus</h1>
     <div>
       {posts.map(p =>
-      <div>
+      <div key={p.id}>
         <PostPreview
-          key={p.id}
           haus={p.haus}
           user={p.user}
           title={p.title}
