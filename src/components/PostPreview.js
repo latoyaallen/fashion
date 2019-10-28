@@ -24,9 +24,6 @@ const PostPreview = (props) => (
     <Iframe
       src={props.src}
     />
-    <p>
-      comment share save
-    </p>
   </div>
 );
 

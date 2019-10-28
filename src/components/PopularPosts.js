@@ -11,35 +11,34 @@ const PopularPosts = (props) => (
   <div style={contentContainer}>
     <h1>Peach.Haus</h1>
     <PostPreview
-      postId={"1"}
       haus={"haus/fashion"}
       user={"@teaInParis"}
-      title={"I love these vlogs so much! WHAT EVERYONE IS WEARING IN NEW YORK | FALL TRENDS 2019 | KarenBritChick"}
+      title={"My love for New York style captured in one blog:  WHAT EVERYONE IS WEARING IN NEW YORK | FALL TRENDS 2019 | KarenBritChick"}
       src={"https://www.youtube.com/embed/IUP1Lp9WQzw"}
     />
     <PostPreview
       haus={"haus/skincare"}
       user={"@makeupAndCurls"}
-      title={"Getting my skincare together starting this weekend.  It's time."}
+      title={"I've been inconsistent with my skincare routine...time to get back on track."}
       src={"https://www.youtube.com/embed/wpkqahzyeek"}
     />
     <PostPreview
-      haus={"haus/architecture"}
+      haus={"haus/interiorDesign"}
       user={"@howardGirl"}
-      title={"I'm studying all weekend instead of going out so I can one day have a home like this."}
+      title={"Future me WILL have a home like this.  I'm manifesting it."}
       src={"https://www.youtube.com/embed/RDn0K9UzCpc"}
     />
     <PostPreview
       haus={"haus/fashion"}
       user={"@teaInParis"}
-      title={"Chanel Spring Summer 2020"}
+      title={"Dreamy: Chanel Spring Summer 2020"}
       src={"https://www.youtube.com/embed/BGrY85i-skk"}
     />
     <PostPreview
-      haus={"haus/mua"}
+      haus={"haus/makeup"}
       user={"@makeupAndCurls"}
-      title={"EVERYDAY MAKEUP ROUTINE 2019 | NATURAL GLAM | HIGHLOWLUXXE"}
-      scr={"https://www.youtube.com/embed/wPpKFeIgDCI"}
+      title={"My 'oops I'm running late again' makeup routine."}
+      src={"https://www.youtube.com/embed/V97xTCJFL8g"}
     />
     <PostPreview
       haus={"haus/books"}
