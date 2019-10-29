@@ -5,15 +5,15 @@ const posts = [
     "user":"@teaInParis",
     "title":"My love for New York style captured in one vlog:  WHAT EVERYONE IS WEARING IN NEW YORK | FALL TRENDS 2019 | KarenBritChick",
     "src":"https://www.youtube.com/embed/IUP1Lp9WQzw",
-    "date":"Mon Oct 28 2019",
+    "date":"Tue Oct 29, 2019",
   },
   {
     "id": "2",
     "haus":"haus/skincare",
-    "user":"@makeupAndCurls",
+    "user":"@howardGirl",
     "title":"Time to get consistent with my skincare routine.",
     "src":"https://www.youtube.com/embed/wpkqahzyeek",
-    "date":"Mon Oct 28 2019",
+    "date":"Tue Oct 29, 2019",
   },
   {
     "id": "3",
@@ -21,40 +21,47 @@ const posts = [
     "user":"@howardGirl",
     "title":"Future me WILL have a home like this.  I'm manifesting it.",
     "src":"https://www.youtube.com/embed/RDn0K9UzCpc",
-    "date":"Mon Oct 28 2019",
+    "date":"Tue Oct 29, 2019",
   },
   {
     "id": "4",
+    "haus":"haus/architecture",
+    "user":"@simoneReads",
+    "title":"Imagine finding a cozy corner in any of these spaces to spend the day.",
+    "src":"https://www.youtube.com/embed/LbJCjAzL78Q",
+    "date":"Tue Oct 29, 2019",
+  },
+  {
+    "id": "5",
     "haus":"haus/fashion",
     "user":"@teaInParis",
     "title":"I adore this dreamy Chanel Spring Summer 2020 collection.",
     "src":"https://www.youtube.com/embed/BGrY85i-skk",
-    "date":"Mon Oct 28 2019",
-  },
-  {
-    "id": "5",
-    "haus":"haus/makeup",
-    "user":"@makeupAndCurls",
-    "title":"My 'oops I'm running late to brunch' makeup routine.",
-    "src":"https://www.youtube.com/embed/V97xTCJFL8g",
-    "date":"Mon Oct 28 2019",
+    "date":"Tue Oct 29, 2019",
   },
   {
     "id": "6",
-    "haus":"haus/books",
-    "user":"@simoneReads",
-    "title":"Rapid Fire Questions with NYT#1 Author Malcolm Gladwell",
-    "src":"https://www.youtube.com/embed/PwvNTxeebHA",
-    "date":"Mon Oct 28 2019",
+    "haus":"haus/makeup",
+    "user":"@howardGirl",
+    "title":"My 'oops I'm running late to brunch' makeup routine.",
+    "src":"https://www.youtube.com/embed/V97xTCJFL8g",
+    "date":"Tue Oct 29, 2019",
   },
   {
     "id": "7",
     "haus":"haus/books",
-    "user":"@howardGirl",
-    "title":"Brazil, China, Mexico...I will make it to every library on the list.",
-    "src":"https://www.youtube.com/embed/LbJCjAzL78Q",
-    "date":"Mon Oct 28 2019",
+    "user":"@simoneReads",
+    "title":"Rapid Fire Questions with NYT#1 Author Malcolm Gladwell",
+    "src":"https://www.youtube.com/embed/PwvNTxeebHA",
+    "date":"Tue Oct 29, 2019",
   },
 ]
 
 export default posts;
+// https://www.youtube.com/watch?v=iVx9Hvnd8RE
+// https://www.youtube.com/watch?v=MDMYg0Ju2ZE
+// https://www.youtube.com/watch?v=9P-uZdM_5W8
+// https://www.youtube.com/watch?v=2eqefkLnquQ
+// https://www.youtube.com/watch?v=klY3SMspUBQ
+// https://www.youtube.com/watch?v=g31W1G56Ew0
+// https://www.youtube.com/watch?v=pliX-RhIKpQ
