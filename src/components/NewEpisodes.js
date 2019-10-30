@@ -8,9 +8,14 @@ const contentContainer = {
   background: 'white',
 }
 
+const titleText = {
+  fontSize: 30,
+  paddingLeft: '6px',
+}
+
 const NewEpisodes = (props) => (
   <div style={contentContainer}>
-    <h1>New Episodes</h1>
+    <p style={titleText}>New Episodes</p>
     <div>
       {posts.map(p =>
       <div key={p.id}>
