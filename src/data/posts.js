@@ -57,7 +57,7 @@ const posts = [
   },
   {
     "id": "8",
-    "haus":"LookbookTV",
+    "haus":"Lookbook TV",
     "user":"@tiaraNYC",
     "title":"Autumn Lookbook || Mossonyi",
     "src":"https://www.youtube.com/embed/_6-3W4kxOoo",
