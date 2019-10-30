@@ -10,7 +10,7 @@ const contentContainer = {
 
 const PopularPosts = (props) => (
   <div style={contentContainer}>
-    <h1>Popular Episodes</h1>
+    <h1>New Episodes</h1>
     <div>
       {posts.map(p =>
       <div key={p.id}>

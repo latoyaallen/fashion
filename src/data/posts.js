@@ -55,6 +55,14 @@ const posts = [
     "src":"https://www.youtube.com/embed/PwvNTxeebHA",
     "date":"Tue Oct 29, 2019",
   },
+  {
+    "id": "8",
+    "haus":"LookbookTV",
+    "user":"@tiaraNYC",
+    "title":"Autumn Lookbook || Mossonyi",
+    "src":"https://www.youtube.com/embed/_6-3W4kxOoo",
+    "date":"Tue Oct 29, 2019",
+  },
 ]
 
 export default posts;
