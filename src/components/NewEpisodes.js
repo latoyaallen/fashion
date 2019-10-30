@@ -1,5 +1,5 @@
 import React from 'react';
-import PostPreview from './PostPreview'
+import Episode from './Episode'
 import posts from '../data/posts';
 
 const contentContainer = {
@@ -8,13 +8,13 @@ const contentContainer = {
   background: 'white',
 }
 
-const PopularPosts = (props) => (
+const NewEpisodes = (props) => (
   <div style={contentContainer}>
     <h1>New Episodes</h1>
     <div>
       {posts.map(p =>
       <div key={p.id}>
-        <PostPreview
+        <Episode
           haus={p.haus}
           user={p.user}
           title={p.title}
@@ -27,4 +27,4 @@ const PopularPosts = (props) => (
   </div>
 );
 
-export default PopularPosts;
+export default NewEpisodes;

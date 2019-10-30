@@ -22,8 +22,7 @@ const textSize = {
   fontSize: '15px',
 }
 
-
-const PostPreview = (props) => (
+const Episode = (props) => (
   <div style={previewContainer}>
     <span>Channel: {props.haus}</span>
     <p style={textSize} >Posted by {props.user} 2 days ago</p>
@@ -34,5 +33,4 @@ const PostPreview = (props) => (
   </div>
 );
 
-export default PostPreview;
-//<p style={textSize} >Posted by {props.user} 2 days ago</p>
+export default Episode;

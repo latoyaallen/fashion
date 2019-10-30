@@ -1,10 +1,10 @@
 import React from 'react';
-import PopularPosts from './components/PopularPosts'
+import NewEpisodes from './components/NewEpisodes'
 
 function App() {
   return (
     <div>
-      <PopularPosts />
+      <NewEpisodes />
     </div>
   );
 }
