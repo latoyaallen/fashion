@@ -1,2 +1,2 @@
 # peach.haus
-Social Networking App for Black Women
+Users can make channels for other to watch.

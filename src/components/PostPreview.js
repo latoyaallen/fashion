@@ -25,7 +25,7 @@ const textSize = {
 
 const PostPreview = (props) => (
   <div style={previewContainer}>
-    <span>{props.haus}</span>
+    <span>Channel: {props.haus}</span>
     <p style={textSize} >Posted by {props.user} 2 days ago</p>
     <h3>{props.title}</h3>
     <Iframe
@@ -35,3 +35,4 @@ const PostPreview = (props) => (
 );
 
 export default PostPreview;
+//<p style={textSize} >Posted by {props.user} 2 days ago</p>
