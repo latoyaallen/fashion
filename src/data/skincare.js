@@ -2,23 +2,16 @@ const skincare = [
   {
     "id": "200",
     "channel":"Skincare",
-    "creator":"@howardGirl",
-    "title":"Time to get consistent with my skincare routine.",
+    "creator":"The Golden Rx",
+    "title":"SKINCARE Q&A WITH AN ESTHETICIAN ",
     "src":"https://www.youtube.com/embed/wpkqahzyeek",
   },
   {
     "id": "201",
     "channel":"Skincare",
-    "creator":"@howardGirl",
-    "title":"My 'oops I'm running late to brunch' makeup routine.",
+    "creator":"tiarra monet",
+    "title":"Flawless 10 minute face for the Everyday Girl",
     "src":"https://www.youtube.com/embed/V97xTCJFL8g",
-  },
-  {
-    "id": "202",
-    "channel":"Skincare",
-    "creator":"@howardGirl",
-    "title":"How I Detangle Extremely DIRTY, MATTED, TANGLED HAIR IN SECONDS! || Amber Ansah",
-    "src":"https://www.youtube.com/embed/o3nxG7eyQUc",
   },
 ]
 

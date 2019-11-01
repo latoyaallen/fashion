@@ -2,22 +2,22 @@ const books = [
   {
     "id": "400",
     "channel":"Book Lovers",
-    "creator":"@simoneReads",
-    "title":"Imagine finding a cozy corner in any of these spaces to spend the day.",
+    "creator":"Insider",
+    "title":"The 15 Best Libraries In The World",
     "src":"https://www.youtube.com/embed/LbJCjAzL78Q",
   },
   {
     "id": "401",
     "channel":"Book Lovers",
-    "creator":"@simoneReads",
+    "creator":"NayaReadsandSmiles",
     "title":"Rapid Fire Questions with NYT#1 Author Malcolm Gladwell",
     "src":"https://www.youtube.com/embed/PwvNTxeebHA",
   },
   {
     "id": "402",
     "channel":"Book Lovers",
-    "creator":"@simoneReads",
-    "title":"THE WATER DANCER BOOK REVIEW || Left On Read",
+    "creator":"Left On Read",
+    "title":"THE WATER DANCER BOOK REVIEW ",
     "src":"https://www.youtube.com/embed/2eqefkLnquQ",
   },
 ]
