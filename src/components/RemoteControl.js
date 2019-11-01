@@ -3,7 +3,7 @@ import Channels from './Channels'
 
 const remoteControl = {
   border: '2px solid #25262b',
-  borderRadius: '10px',
+  borderRadius: '70px',
   marginLeft: '1150px', //generate space around element
   height: '100vh',
   backgroundColor: '#e8e9ed',
