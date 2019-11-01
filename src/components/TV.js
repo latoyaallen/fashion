@@ -1,6 +1,10 @@
 import React from 'react';
 import westElmTV from '../images/westElmTV.png'
 
+
+// The size of the Iframe and image need to change together,
+// so don't refactor the Iframe out of this file.
+//
 const Iframe = (props) => (
   <div style={videoContainer}>
     <iframe
@@ -19,12 +23,7 @@ const videoContainer = {
   zIndex: 1,
 }
 
-const textSize = {
-  fontSize: '15px',
-}
-
 const image = {
-  // width: 1050,
   width: 1150,
   height: 1000,
   position: 'absolute',
