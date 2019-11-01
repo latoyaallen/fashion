@@ -17,6 +17,8 @@ const RemoteControl = (props) => (
       <h3><center>{props.title}</center></h3>
       <h4><center>{props.creator}</center></h4>
       <Channels />
+      <h4><center>Next Video</center></h4>
+      <h4><center>Previous Video</center></h4>
     </div>
   </div>
 );
