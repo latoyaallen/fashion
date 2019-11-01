@@ -2,10 +2,6 @@ import React from 'react';
 import TV from './TV'
 import posts from '../data/posts';
 
-const contentContainer = {
-  background: 'white',
-}
-
 const imageAttribution = {
   position: 'fixed',
   bottom: 0,
@@ -13,7 +9,7 @@ const imageAttribution = {
 }
 
 const LivingRoom = (props) => (
-  <div style={contentContainer}>
+  <div>
     <TV
       src={posts[0]["src"]}
     />

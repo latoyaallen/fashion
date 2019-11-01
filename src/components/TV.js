@@ -5,16 +5,16 @@ const Iframe = (props) => (
   <div style={videoContainer}>
     <iframe
       src={props.src}
-      height="415"
-      width="475"
+      height="285"
+      width="471"
       title={props.title}
     />
   </div>
 );
 
 const videoContainer = {
-  paddingLeft: 370,
-  paddingTop: 170,
+  paddingLeft: 345,
+  paddingTop: 205,
   position: 'absolute',
   zIndex: 1,
 }
@@ -24,7 +24,9 @@ const textSize = {
 }
 
 const image = {
-  width: 1200,
+  // width: 1050,
+  width: 1150,
+  height: 1000,
   position: 'absolute',
   zIndex: -1,
 }
