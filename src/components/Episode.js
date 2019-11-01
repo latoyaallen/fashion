@@ -1,5 +1,4 @@
 import React from 'react';
-import daysAgo from '../lib/daysAgo';
 
 const Iframe = (props) => (
   <div>

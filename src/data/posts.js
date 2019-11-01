@@ -1,7 +1,7 @@
 const posts = [
   {
     "id": "1",
-    "haus":"Peach Haus TV",
+    "haus":"Fashion TV",
     "user":"@teaInParis",
     "title":"My love for New York style captured in one vlog:  WHAT EVERYONE IS WEARING IN NEW YORK | FALL TRENDS 2019 | KarenBritChick",
     "src":"https://www.youtube.com/embed/IUP1Lp9WQzw",
@@ -9,7 +9,7 @@ const posts = [
   },
   {
     "id": "2",
-    "haus":"Skin Care TV",
+    "haus":"Beauty TV",
     "user":"@howardGirl",
     "title":"Time to get consistent with my skincare routine.",
     "src":"https://www.youtube.com/embed/wpkqahzyeek",
@@ -17,7 +17,7 @@ const posts = [
   },
   {
     "id": "3",
-    "haus":"Interior Design TV",
+    "haus":"Apartment In The City TV",
     "user":"@howardGirl",
     "title":"Future me WILL have a home like this.  I'm manifesting it.",
     "src":"https://www.youtube.com/embed/RDn0K9UzCpc",
@@ -25,7 +25,7 @@ const posts = [
   },
   {
     "id": "4",
-    "haus":"Architecture TV",
+    "haus":"Bookish TV",
     "user":"@simoneReads",
     "title":"Imagine finding a cozy corner in any of these spaces to spend the day.",
     "src":"https://www.youtube.com/embed/LbJCjAzL78Q",
@@ -33,7 +33,7 @@ const posts = [
   },
   {
     "id": "5",
-    "haus":"Peach Haus TV",
+    "haus":"Fashion TV",
     "user":"@teaInParis",
     "title":"I adore this dreamy Chanel Spring Summer 2020 collection.",
     "src":"https://www.youtube.com/embed/BGrY85i-skk",
@@ -41,7 +41,7 @@ const posts = [
   },
   {
     "id": "6",
-    "haus":"Makeup TV",
+    "haus":"Beauty TV",
     "user":"@howardGirl",
     "title":"My 'oops I'm running late to brunch' makeup routine.",
     "src":"https://www.youtube.com/embed/V97xTCJFL8g",
@@ -49,7 +49,7 @@ const posts = [
   },
   {
     "id": "7",
-    "haus":"Book TV",
+    "haus":"Bookish TV",
     "user":"@simoneReads",
     "title":"Rapid Fire Questions with NYT#1 Author Malcolm Gladwell",
     "src":"https://www.youtube.com/embed/PwvNTxeebHA",
@@ -57,11 +57,67 @@ const posts = [
   },
   {
     "id": "8",
-    "haus":"Lookbook TV",
+    "haus":"Fashion TV",
     "user":"@tiaraNYC",
     "title":"Autumn Lookbook || Mossonyi",
     "src":"https://www.youtube.com/embed/_6-3W4kxOoo",
     "date":"Tue Oct 29, 2019",
+  },
+  {
+    "id": "9",
+    "haus":"Beauty TV",
+    "user":"@howardGirl",
+    "title":"How I Detangle Extremely DIRTY, MATTED, TANGLED HAIR IN SECONDS! || Amber Ansah",
+    "src":"https://www.youtube.com/embed/o3nxG7eyQUc",
+    "date":"Wed Oct 30, 2019",
+  },
+  {
+    "id": "10",
+    "haus":"Bookish TV",
+    "user":"@simoneReads",
+    "title":"THE WATER DANCER BOOK REVIEW || Left On Read",
+    "src":"https://www.youtube.com/embed/2eqefkLnquQ",
+    "date":"Wed Oct 30, 2019",
+  },
+  {
+    "id": "11",
+    "haus":"Sunday TV",
+    "user":"@teaInParis",
+    "title":"Ultimate DIY Face Mask + DIY Face Scrub for Dry Skin, Oily Skin, Acne, Clear Skin || Spankie Valentine TV",
+    "src":"https://www.youtube.com/embed/-06Z5AD0A9g",
+    "date":"Thu Oct 31, 2019",
+  },
+  {
+    "id": "12",
+    "haus":"Sunday TV",
+    "user":"@teaInParis",
+    "title":"DIY BODY SCRUB | Whipped Sugar Scrub Recipe || abetweene",
+    "src":"https://www.youtube.com/embed/7cZesX1mtSQ",
+    "date":"Thu Oct 31, 2019",
+  },
+  {
+    "id": "13",
+    "haus":"Apartment in The City  TV",
+    "user":"@teaInParis",
+    "title":"DIY BATHROOM MAKEOVER | URBAN JUNGLE + diy macrame plant hangers || abetweene",
+    "src":"https://www.youtube.com/embed/Ht2xS0CODvI",
+    "date":"Thu Oct 31, 2019",
+  },
+  {
+    "id": "14",
+    "haus":"Apartment in The City  TV",
+    "user":"@teaInParis",
+    "title":"Thrifted Home Decor Haul | West Elm, CB2, HomeGoods, and MORE! || Victoria Reneà",
+    "src":"https://www.youtube.com/embed/bXUzDX6x_kQ",
+    "date":"Thu Oct 31, 2019",
+  },
+  {
+    "id": "14",
+    "haus":"Apartment in The City  TV",
+    "user":"@teaInParis",
+    "title":"Ashley Ford's Brooklyn Apartment | House Tours | Apartment Therapy",
+    "src":"https://www.youtube.com/embed/gotW-VAwFm8",
+    "date":"Thu Oct 31, 2019",
   },
 ]
 

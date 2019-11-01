@@ -1,10 +1,11 @@
 import React from 'react';
-import NewEpisodes from './components/NewEpisodes'
+import LivingRoom from './components/LivingRoom'
+import posts from './data/posts'
 
 function App() {
   return (
     <div>
-      <NewEpisodes />
+      <LivingRoom />
     </div>
   );
 }
