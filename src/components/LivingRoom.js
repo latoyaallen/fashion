@@ -1,6 +1,5 @@
 import React from 'react';
 import TV from './TV'
-import RemoteControl from './RemoteControl'
 import fashionAndStyle from '../data/fashionAndStyle';
 import Channels from './Channels'
 

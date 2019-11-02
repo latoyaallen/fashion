@@ -17,15 +17,17 @@ const buttonGroup = {
   position: 'absolute',
   width: '300px',
   height: '200px',
-  margin: '200px 0 0 1230px',
+  margin: '120px 0 0 1230px',
 }
 
 const Channels = (props) => (
   <div style={buttonGroup}>
-    <button style= {button}>Fashion</button>
-    <button style= {button}>Books</button>
-    <button style= {button}>Interiors</button>
-    <button style= {button}>Beauty</button>
+    <button style= {button}>Street Style</button>
+    <button style= {button}>Vintage</button>
+    <button style= {button}>Luxury</button>
+    <button style= {button}>Look Books</button>
+    <button style= {button}>Hair</button>
+    <button style= {button}>Skin</button>
   </div>
 );
 
