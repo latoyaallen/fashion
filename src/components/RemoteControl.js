@@ -1,5 +1,4 @@
 import React from 'react';
-import Channels from './Channels'
 
 const remoteControl = {
   border: '2px solid #25262b',
@@ -9,16 +8,21 @@ const remoteControl = {
   backgroundColor: '#e8e9ed',
 }
 
+const text = {
+  margin: 'auto',
+  //width: '50%',
+  padding: '10px',
+}
+
 const RemoteControl = (props) => (
   <div>
     <div style={remoteControl}>
-      <h1><center>Peach Haus TV</center></h1>
-      <h2><center>Channel: {props.fashion}</center></h2>
-      <h3><center>{props.title}</center></h3>
-      <h4><center>{props.creator}</center></h4>
-      <Channels />
-      <h4><center>Next Video</center></h4>
-      <h4><center>Previous Video</center></h4>
+      <div style={text}>
+        <h2><center>Current Channel: Fashion</center></h2>
+        <h3><center>Episode: {props.title}</center></h3>
+        <h4><center>Created by {props.creator}</center></h4>
+        <center>Tweet video submisstions to @hauspeach</center>
+      </div>
     </div>
   </div>
 );

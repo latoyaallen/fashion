@@ -2,6 +2,7 @@ import React from 'react';
 import TV from './TV'
 import RemoteControl from './RemoteControl'
 import fashionAndStyle from '../data/fashionAndStyle';
+import Channels from './Channels'
 
 const imageAttribution = {
   position: 'fixed',
@@ -14,12 +15,8 @@ const LivingRoom = (props) => (
     <TV
       src={fashionAndStyle[0]["src"]}
     />
+    <Channels/>
     <p style={imageAttribution}>Image Attribution: West Elm</p>
-    <RemoteControl
-      currentChannel={"Fashion"}
-      title={fashionAndStyle[0]["title"]}
-      creator={fashionAndStyle[0]["creator"]}
-    />
   </div>
 );
 
