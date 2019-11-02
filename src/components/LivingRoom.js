@@ -1,6 +1,6 @@
 import React from 'react';
 import TV from './TV'
-import fashionAndStyle from '../data/fashionAndStyle';
+import pamper from '../data/pamper';
 import Channels from './Channels'
 
 const imageAttribution = {
@@ -12,7 +12,7 @@ const imageAttribution = {
 const LivingRoom = (props) => (
   <div>
     <TV
-      src={fashionAndStyle[0]["src"]}
+      src={pamper[0]["src"]}
     />
     <Channels/>
     <p style={imageAttribution}>Image Attribution: West Elm</p>

@@ -22,12 +22,11 @@ const buttonGroup = {
 
 const Channels = (props) => (
   <div style={buttonGroup}>
-    <button style= {button}>Street Style</button>
-    <button style= {button}>Vintage</button>
-    <button style= {button}>Luxury</button>
-    <button style= {button}>Look Books</button>
+    <button style= {button}>Fall Style</button>
+    <button style= {button}>Makeup</button>
     <button style= {button}>Hair</button>
-    <button style= {button}>Skin</button>
+    <button style= {button}>Pamper</button>
+    <button style= {button}>Submit a Video</button>
   </div>
 );
 
