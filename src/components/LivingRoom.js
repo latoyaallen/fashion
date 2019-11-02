@@ -12,9 +12,15 @@ const imageAttribution = {
   color: 'black',
 }
 
-const getCategory = (category) => {
+const getCategory = (category, count) => {
+  var size = count
   if(category === 'fallStyle') {
-    return fallStyle[0]["src"];
+    const length = fallStyle.length;
+    if(count >= fallStyle.length) {
+      size = count - 1;
+    }
+    console.log(fallStyle[size]);
+    return fallStyle[size]["src"];
   }
   if(category === 'pamper') {
     return pamper[0]["src"];
@@ -29,7 +35,8 @@ const getCategory = (category) => {
 const LivingRoom = (props) => (
   <div>
     <TV
-      src={getCategory(props.category)}
+      src={getCategory(props.category, props.count)}
+      handleNext={props.handleNext}
     />
     <p style={imageAttribution}>Image West Elm</p>
     <Channels

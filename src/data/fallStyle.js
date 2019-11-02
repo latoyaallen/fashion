@@ -9,13 +9,13 @@ const fallStyle = [
     "id": "101",
     "creator":"FashionSteeleNYC",
     "title":"HOW TO STYLE FALL BOOTS 2019 | MONROE STEELE",
-    "src":"https://www.youtube.com/embed/bZPBlgALOUw&t=870s",
+    "src":"https://www.youtube.com/embed/bZPBlgALOUw",
   },
   {
     "id": "102",
     "creator":"KarenBritChick",
     "title":"FALL PIECES THAT GET YOU COMPLIMENTS | CLOSET ESSENTIALS!!",
-    "src":"https://www.youtube.com/embed/uCOZFPFhTH8&t=120s",
+    "src":"https://www.youtube.com/embed/uCOZFPFhTH8",
   },
   {
     "id": "103",

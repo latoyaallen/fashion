@@ -30,12 +30,20 @@ const image = {
   zIndex: -1,
 }
 
+const nextVideo = {
+  paddingTop: 500,
+  paddingLeft: 770,
+  cursor: 'pointer',
+  position: 'absolute',
+}
+
 const TV = (props) => (
   <div>
     <img style={image} src={westElmTV} alt="West Elm TV" />
     <Iframe
       src={props.src}
     />
+    <p style={nextVideo} onClick={props.handleNext.bind(this, 'next')}>NEXT</p>
   </div>
 );
 
