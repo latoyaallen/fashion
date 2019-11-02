@@ -1,21 +1,40 @@
 import React from 'react';
 import TV from './TV'
-import pamper from '../data/pamper';
 import Channels from './Channels'
+import pamper from '../data/pamper';
+import fallStyle from '../data/fallStyle';
+import makeup from '../data/makeup';
+import hair from '../data/hair';
 
 const imageAttribution = {
   position: 'fixed',
-  bottom: 0,
+  bottom: -20,
   color: 'black',
 }
 
+const getCategory = (category) => {
+  if(category === 'fallStyle') {
+    return fallStyle[0]["src"];
+  }
+  if(category === 'pamper') {
+    return pamper[0]["src"];
+  }
+  if(category === 'makeup') {
+    return makeup[0]["src"];
+  }
+  if(category === 'hair') {
+    return hair[0]["src"];
+  }
+}
 const LivingRoom = (props) => (
   <div>
     <TV
-      src={pamper[0]["src"]}
+      src={getCategory(props.category)}
     />
-    <Channels/>
-    <p style={imageAttribution}>Image Attribution: West Elm</p>
+    <p style={imageAttribution}>Image West Elm</p>
+    <Channels
+      handleClick={props.handleClick}
+    />
   </div>
 );
 

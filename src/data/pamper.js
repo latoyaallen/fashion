@@ -29,6 +29,12 @@ const pamper = [
     "title":"$7,000 Maintenance Week! High Maintenance Is Expensive Honey! | Jackie Aina",
     "src":"https://www.youtube.com/embed/OLBLvj-uanY",
   },
+  {
+    "id": "906",
+    "creator":"Antonnette",
+    "title":"FALL Pamper Routine 2018 | Antonnette",
+    "src":"https://www.youtube.com/embed/wwZoMDmozWg",
+  },
 ]
 
 export default pamper;

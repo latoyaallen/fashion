@@ -22,10 +22,10 @@ const buttonGroup = {
 
 const Channels = (props) => (
   <div style={buttonGroup}>
-    <button style= {button}>Fall Style</button>
-    <button style= {button}>Makeup</button>
-    <button style= {button}>Hair</button>
-    <button style= {button}>Pamper</button>
+    <button style= {button} onClick={props.handleClick.bind(this, 'fallStyle')}>Fall Style</button>
+    <button style= {button} onClick={props.handleClick.bind(this, 'makeup')}>Makeup</button>
+    <button style= {button} onClick={props.handleClick.bind(this, 'hair')}>Hair</button>
+    <button style= {button} onClick={props.handleClick.bind(this, 'pamper')}>Pamper</button>
     <button style= {button}>Submit a Video</button>
   </div>
 );
