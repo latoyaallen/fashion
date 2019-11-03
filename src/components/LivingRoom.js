@@ -1,10 +1,11 @@
 import React from 'react';
 import TV from './TV'
 import Channels from './Channels'
-import pamper from '../data/pamper';
-import fallStyle from '../data/fallStyle';
-import makeup from '../data/makeup';
-import hair from '../data/hair';
+
+import lookBooks from '../data/lookBooks';
+import streetStyle from '../data/streetStyle';
+import vintage from '../data/vintage';
+import hauls from '../data/hauls';
 
 const imageAttribution = {
   position: 'fixed',
@@ -13,23 +14,17 @@ const imageAttribution = {
 }
 
 const getCategory = (category, count) => {
-  var size = count
-  if(category === 'fallStyle') {
-    const length = fallStyle.length;
-    if(count >= fallStyle.length) {
-      size = count - 1;
-    }
-    console.log(fallStyle[size]);
-    return fallStyle[size]["src"];
+  if(category === 'streetStyle') {
+    return streetStyle[0]["src"];
   }
-  if(category === 'pamper') {
-    return pamper[6]["src"];
+  if(category === 'lookBooks') {
+    return lookBooks[0]["src"];
   }
-  if(category === 'makeup') {
-    return makeup[0]["src"];
+  if(category === 'vintage') {
+    return vintage[0]["src"];
   }
-  if(category === 'hair') {
-    return hair[0]["src"];
+  if(category === 'hauls') {
+    return hauls[0]["src"];
   }
 }
 const LivingRoom = (props) => (
@@ -37,6 +32,7 @@ const LivingRoom = (props) => (
     <TV
       src={getCategory(props.category, props.count)}
       handleNext={props.handleNext}
+      handlePrevious={props.handlePrevious}
     />
     <p style={imageAttribution}>Image West Elm</p>
     <Channels

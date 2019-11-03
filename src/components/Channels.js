@@ -17,17 +17,15 @@ const buttonGroup = {
   position: 'absolute',
   width: '300px',
   height: '200px',
-  margin: '10px 0 0 1230px',
+  margin: '120px 0 0 1230px',
 }
 
 const Channels = (props) => (
   <div style={buttonGroup}>
-    <button style= {button} onClick={props.handleClick.bind(this, 'fallStyle')}>Fall Style</button>
-    <button style= {button} onClick={props.handleClick.bind(this, 'makeup')}>Makeup</button>
-    <button style= {button} onClick={props.handleClick.bind(this, 'hair')}>Hair</button>
-    <button style= {button} onClick={props.handleClick.bind(this, 'pamper')}>Pamper</button>
-    <button style= {button} onClick={props.handleClick.bind(this, 'recipes')}>Recipes</button>
-    <button style= {button} onClick={props.handleClick.bind(this, 'books')}>Books</button>
+    <button style= {button} onClick={props.handleClick.bind(this, 'lookBooks')}>Look Books</button>
+    <button style= {button} onClick={props.handleClick.bind(this, 'vintage')}>Vintage</button>
+    <button style= {button} onClick={props.handleClick.bind(this, 'streetStyle')}>Street Style</button>
+    <button style= {button} onClick={props.handleClick.bind(this, 'hauls')}>Hauls</button>
     <button style= {button}>Submit a Video</button>
   </div>
 );
