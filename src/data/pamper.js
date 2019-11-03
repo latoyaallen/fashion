@@ -35,6 +35,12 @@ const pamper = [
     "title":"FALL Pamper Routine 2018 | Antonnette",
     "src":"https://www.youtube.com/embed/wwZoMDmozWg",
   },
+  {
+    "id": "907",
+    "creator":"NaturalNeiicey",
+    "title":"MY GLOWY SKINCARE ROUTINE | FACE & BODY!",
+    "src":"https://www.youtube.com/embed/VJfjCMmyHg4?start=20",
+  },
 ]
 
 export default pamper;

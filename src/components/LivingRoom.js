@@ -23,7 +23,7 @@ const getCategory = (category, count) => {
     return fallStyle[size]["src"];
   }
   if(category === 'pamper') {
-    return pamper[0]["src"];
+    return pamper[6]["src"];
   }
   if(category === 'makeup') {
     return makeup[0]["src"];
