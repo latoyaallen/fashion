@@ -13,7 +13,8 @@ const imageAttribution = {
   color: 'black',
 }
 
-const getCategory = (category, count) => {
+const getEmbed = (category, count) => {
+  console.log(category);
   if(category === 'streetStyle') {
     return streetStyle[0]["src"];
   }
@@ -27,12 +28,29 @@ const getCategory = (category, count) => {
     return hauls[0]["src"];
   }
 }
+
+const numberOfVideos = (category) => {
+  if(category === 'streetStyle') {
+    return streetStyle.length;
+  }
+  if(category === 'lookBooks') {
+    return lookBooks.length;
+  }
+  if(category === 'vintage') {
+    return vintage.length;
+  }
+  if(category === 'hauls') {
+    return hauls.length;
+  }
+}
+
 const LivingRoom = (props) => (
   <div>
     <TV
-      src={getCategory(props.category, props.count)}
+      src={getEmbed(props.category, props.count)}
       handleNext={props.handleNext}
       handlePrevious={props.handlePrevious}
+      category={props.category}
     />
     <p style={imageAttribution}>Image West Elm</p>
     <Channels

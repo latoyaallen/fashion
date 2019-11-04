@@ -1,6 +1,5 @@
 import React from 'react';
 import LivingRoom from './components/LivingRoom'
-import fallStyle from './data/fallStyle';
 
 class App extends React.Component {
    constructor(props) {
@@ -17,11 +16,9 @@ class App extends React.Component {
   }
 
   handleNext(e) {
-    console.log("coming soon");
   }
 
   handlePrevious(e) {
-    console.log("coming soon");
   }
 
   render() {

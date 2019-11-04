@@ -1,10 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import westElmTV from '../images/westElmTV.png'
 
 
-// The size of the Iframe and image need to change together,
-// so don't refactor the Iframe out of this file.
-//
+import lookBooks from '../data/lookBooks';
+import streetStyle from '../data/streetStyle';
+import vintage from '../data/vintage';
+import hauls from '../data/hauls';
+
+const numberOfVideos = (category) => {
+  if(category === 'streetStyle') {
+    return streetStyle.length;
+  }
+  if(category === 'lookBooks') {
+    return lookBooks.length;
+  }
+  if(category === 'vintage') {
+    return vintage.length;
+  }
+  if(category === 'hauls') {
+    return hauls.length;
+  }
+}
 const Iframe = (props) => (
   <div style={videoContainer}>
     <iframe
