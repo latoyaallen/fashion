@@ -47,10 +47,9 @@ const image = {
 }
 
 const nextVideo = {
-  paddingTop: 500,
+  paddingTop: 515,
   paddingLeft: 770,
   cursor: 'pointer',
-  position: 'absolute',
 }
 
 const previousVideo = {
@@ -66,8 +65,8 @@ const TV = (props) => (
     <Iframe
       src={props.src}
     />
-    <p style={previousVideo} onClick={props.handlePrevious.bind(this, 'previous')}>PREVIOUS</p>
-    <p style={nextVideo} onClick={props.handleNext.bind(this, 'next')}>NEXT</p>
+    <p style={previousVideo} onClick={props.handlePrevious.bind(this, props.count)}>PREVIOUS</p>
+    <p style={nextVideo} onClick={props.handleNext.bind(this, props.count )}>NEXT</p>
   </div>
 );
 

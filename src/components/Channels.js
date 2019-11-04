@@ -17,7 +17,7 @@ const buttonGroup = {
   position: 'absolute',
   width: '300px',
   height: '200px',
-  margin: '120px 0 0 1230px',
+  margin: '-420px 0 0 1230px',
 }
 
 const Channels = (props) => (

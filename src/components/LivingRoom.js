@@ -14,18 +14,17 @@ const imageAttribution = {
 }
 
 const getEmbed = (category, count) => {
-  console.log(category);
   if(category === 'streetStyle') {
-    return streetStyle[0]["src"];
+    return streetStyle[count]["src"];
   }
   if(category === 'lookBooks') {
-    return lookBooks[0]["src"];
+    return lookBooks[count]["src"];
   }
   if(category === 'vintage') {
-    return vintage[0]["src"];
+    return vintage[count]["src"];
   }
   if(category === 'hauls') {
-    return hauls[0]["src"];
+    return hauls[count]["src"];
   }
 }
 
@@ -51,6 +50,7 @@ const LivingRoom = (props) => (
       handleNext={props.handleNext}
       handlePrevious={props.handlePrevious}
       category={props.category}
+      count={props.count}
     />
     <p style={imageAttribution}>Image West Elm</p>
     <Channels
