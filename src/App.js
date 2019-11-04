@@ -3,7 +3,7 @@ import LivingRoom from './components/LivingRoom'
 import lookBooks from './data/lookBooks';
 import streetStyle from './data/streetStyle';
 import vintage from './data/vintage';
-import howTos from './data/howTos';
+import fashionWeek from './data/fashionWeek';
 
 const numberOfVideos = (category) => {
   if(category === 'streetStyle') {
@@ -15,8 +15,8 @@ const numberOfVideos = (category) => {
   if(category === 'vintage') {
     return vintage.length;
   }
-  if(category === 'howTos') {
-    return howTos.length;
+  if(category === 'fashionWeek') {
+    return fashionWeek.length;
   }
 }
 
