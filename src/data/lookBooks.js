@@ -1,4 +1,4 @@
-const fallStyle = [
+const lookBooks = [
   {
     "id": "200",
     "creator":"Mossonyi",
@@ -6,11 +6,23 @@ const fallStyle = [
     "src":"https://www.youtube.com/embed/_6-3W4kxOoo",
   },
   {
-    "id": "2001",
+    "id": "201",
     "creator":"TheNotoriousKIA ",
     "title":"TIPS! How to Create an Outfit WINTER LOOKBOOK-LAYERING 101",
     "src":"https://www.youtube.com/embed/6c2SLsbD1Yw",
   },
+  {
+    "id": "202",
+    "creator":"HouseOfAesthetics",
+    "title":"Autumn Lookbook Transitioning from Summer to Autumn | 2019",
+    "src":"https://www.youtube.com/embed/icKCjqBHTDs",
+  },
+  {
+    "id": "203",
+    "creator":"The Yusufs",
+    "title":"8 FALL OUTFIT IDEAS | STYLISH FALL LOOKS | THE YUSUFS",
+    "src":"https://www.youtube.com/embed/rQa0bIlBSNQ",
+  },
 ]
 
-export default fallStyle;
+export default lookBooks;
