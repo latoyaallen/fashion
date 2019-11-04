@@ -1,26 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import westElmTV from '../images/westElmTV.png'
 
-
-import lookBooks from '../data/lookBooks';
-import streetStyle from '../data/streetStyle';
-import vintage from '../data/vintage';
-import hauls from '../data/hauls';
-
-const numberOfVideos = (category) => {
-  if(category === 'streetStyle') {
-    return streetStyle.length;
-  }
-  if(category === 'lookBooks') {
-    return lookBooks.length;
-  }
-  if(category === 'vintage') {
-    return vintage.length;
-  }
-  if(category === 'hauls') {
-    return hauls.length;
-  }
-}
 const Iframe = (props) => (
   <div style={videoContainer}>
     <iframe

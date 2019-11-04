@@ -44,7 +44,6 @@ class App extends React.Component {
   }
 
   handlePrevious(e) {
-    const n = numberOfVideos(this.state.category)
     if(this.state.count < 0) { // if we are not on the first video
       this.setState({ count: this.state.count - 1});
     }

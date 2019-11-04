@@ -28,21 +28,6 @@ const getEmbed = (category, count) => {
   }
 }
 
-const numberOfVideos = (category) => {
-  if(category === 'streetStyle') {
-    return streetStyle.length;
-  }
-  if(category === 'lookBooks') {
-    return lookBooks.length;
-  }
-  if(category === 'vintage') {
-    return vintage.length;
-  }
-  if(category === 'hauls') {
-    return hauls.length;
-  }
-}
-
 const LivingRoom = (props) => (
   <div>
     <TV
