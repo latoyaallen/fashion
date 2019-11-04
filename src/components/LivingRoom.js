@@ -5,7 +5,7 @@ import Channels from './Channels'
 import lookBooks from '../data/lookBooks';
 import streetStyle from '../data/streetStyle';
 import vintage from '../data/vintage';
-import hauls from '../data/hauls';
+import fashionWeek from '../data/fashionWeek';
 
 const imageAttribution = {
   position: 'fixed',
@@ -23,8 +23,8 @@ const getEmbed = (category, count) => {
   if(category === 'vintage') {
     return vintage[count]["src"];
   }
-  if(category === 'hauls') {
-    return hauls[count]["src"];
+  if(category === 'fashionWeek') {
+    return fashionWeek[count]["src"];
   }
 }
 

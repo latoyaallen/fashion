@@ -23,6 +23,13 @@ const lookBooks = [
     "title":"8 FALL OUTFIT IDEAS | STYLISH FALL LOOKS | THE YUSUFS",
     "src":"https://www.youtube.com/embed/rQa0bIlBSNQ",
   },
+  {
+    "id": "204",
+    "creator":"Samio",
+    "title":"4 Super Simple Everyday Outfits Lookbook | Samio",
+    "src":"https://www.youtube.com/embed/RTmqYADBi1E",
+  },
+
 ]
 
 export default lookBooks;

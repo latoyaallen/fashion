@@ -25,7 +25,7 @@ const Channels = (props) => (
     <button style= {button} onClick={props.handleCategory.bind(this, 'lookBooks')}>Look Books</button>
     <button style= {button} onClick={props.handleCategory.bind(this, 'vintage')}>Vintage</button>
     <button style= {button} onClick={props.handleCategory.bind(this, 'streetStyle')}>Street Style</button>
-    <button style= {button} onClick={props.handleCategory.bind(this, 'hauls')}>Hauls</button>
+    <button style= {button} onClick={props.handleCategory.bind(this, 'fashionWeek')}>Fashion Week</button>
     <button style= {button}>Submit a Video</button>
   </div>
 );
