@@ -20,13 +20,19 @@ const buttonGroup = {
   margin: '-420px 0 0 1230px',
 }
 
+const link ={
+  textDecoration: 'none',
+  color: 'pink',
+}
+
+const email = "peachhaus@allen-labs.com"
 const Channels = (props) => (
   <div style={buttonGroup}>
-    <button style= {button} onClick={props.handleCategory.bind(this, 'lookBooks')}>Look Books</button>
-    <button style= {button} onClick={props.handleCategory.bind(this, 'vintage')}>Vintage</button>
-    <button style= {button} onClick={props.handleCategory.bind(this, 'streetStyle')}>Street Style</button>
-    <button style= {button} onClick={props.handleCategory.bind(this, 'fashionWeek')}>Fashion Week</button>
-    <button style= {button}>Submit a Video</button>
+    <button style= {button} onClick={props.handleCategory.bind(this, 'lookBooks')}>Look Books (5)</button>
+    <button style= {button} onClick={props.handleCategory.bind(this, 'vintage')}>Vintage (3)</button>
+    <button style= {button} onClick={props.handleCategory.bind(this, 'streetStyle')}>Street Style (1)</button>
+    <button style= {button} onClick={props.handleCategory.bind(this, 'fashionWeek')}>Fashion Week (6)</button>
+    <button style= {button}><a style={link}href={`mailto:${email}`}>Submit A Video</a></button>
   </div>
 );
 
