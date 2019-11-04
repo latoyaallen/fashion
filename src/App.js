@@ -25,13 +25,14 @@ class App extends React.Component {
     super(props);
     this.state = {category: 'lookBooks', count: 0};
 
-    this.handleClick = this.handleClick.bind(this);
+    this.handleCategory = this.handleCategory.bind(this);
     this.handleNext = this.handleNext.bind(this);
     this.handlePrevious = this.handlePrevious.bind(this);
   }
 
-  handleClick(e) {
+  handleCategory(e) {
     this.setState({category: e});
+    this.setState({count: 0});
   }
 
   handleNext(e) {
@@ -52,7 +53,7 @@ class App extends React.Component {
   render() {
     return (
       <LivingRoom
-        handleClick={this.handleClick}
+        handleCategory={this.handleCategory}
         handleNext={this.handleNext}
         handlePrevious={this.handlePrevious}
         category={this.state.category}

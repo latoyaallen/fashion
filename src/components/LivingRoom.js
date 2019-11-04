@@ -54,7 +54,7 @@ const LivingRoom = (props) => (
     />
     <p style={imageAttribution}>Image West Elm</p>
     <Channels
-      handleClick={props.handleClick}
+      handleCategory={props.handleCategory}
     />
   </div>
 );
