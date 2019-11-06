@@ -17,7 +17,7 @@ const buttonGroup = {
   position: 'absolute',
   width: '300px',
   height: '200px',
-  margin: '-420px 0 0 1430px',
+  margin: '-720px 0 0 1430px',
 }
 
 const link ={

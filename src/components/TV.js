@@ -27,14 +27,14 @@ const image = {
 }
 
 const nextVideo = {
-  paddingTop: 515,
-  paddingLeft: 770,
+  paddingTop: 815,
+  paddingLeft: 1270,
   cursor: 'pointer',
 }
 
 const previousVideo = {
-  paddingTop: 500,
-  paddingLeft: 350,
+  paddingTop: 800,
+  paddingLeft: 600,
   cursor: 'pointer',
   position: 'absolute',
 }
