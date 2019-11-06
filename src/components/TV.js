@@ -5,23 +5,23 @@ const Iframe = (props) => (
   <div style={videoContainer}>
     <iframe
       src={props.src}
-      height="285"
-      width="471"
+      height="450"
+      width="780"
       title={props.title}
     />
   </div>
 );
 
 const videoContainer = {
-  paddingLeft: 345,
-  paddingTop: 205,
+  paddingLeft: 580,
+  paddingTop: 310,
   position: 'absolute',
   zIndex: 1,
 }
 
 const image = {
-  width: 1150,
-  height: 1000,
+  width: 1922,
+  height: 1538,
   position: 'absolute',
   zIndex: -1,
 }
