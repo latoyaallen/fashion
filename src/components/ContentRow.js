@@ -7,10 +7,6 @@ const contentContainer = {
   paddingBottom: 20,
 }
 
-const card = {
-  display: 'grid',
-}
-
 const ContentRow = (props) => (
   <div style={contentContainer} >
     <Card
