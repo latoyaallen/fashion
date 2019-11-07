@@ -1,22 +1,28 @@
 import React from 'react';
 import Card from './Card';
 
-const contentContainer = {
+const cardsContainer = {
   display: 'flex',
   paddingLeft: 20,
-  paddingBottom: 40,
-  marginTop: 20,
+  paddingBottom: 75,
 }
 
-const categoryTitle ={
-  paddingLeft: 20,
-  fontSize: 30,
+const popularText ={
+  textAlign: 'center',
+  fontSize: 32,
+  fontWeight: 600,
+  letterSpacing: 4.2,
 }
 
-const ContentRow = (props) => (
-  <div>
-    <p style={categoryTitle}>{props.categoryTitle}</p>
-    <div style={contentContainer} >
+const popularStyle = {
+  backgroundColor: '#f9f4ee', // seashell
+  paddingTop: 20,
+}
+
+const PopularContentRow = (props) => (
+  <div style={popularStyle}>
+    <p style={popularText}>POPULAR</p>
+    <div style={cardsContainer} >
       <Card
         src={props.category[0].src}
         height={300}
@@ -42,4 +48,4 @@ const ContentRow = (props) => (
   </div>
 );
 
-export default ContentRow;
+export default PopularContentRow;

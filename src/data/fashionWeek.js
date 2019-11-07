@@ -1,7 +1,7 @@
 const fashionWeek = [
   {
     "id": "100",
-    "creator":"",
+    "creator":"SimplySahar",
     "title":"Seoul Fashion Week S/S 2020 | VLOG |",
     "src":"https://www.youtube.com/embed/j2dJ8VDBiSM",
   },

@@ -6,6 +6,8 @@ const textContainer = {
 }
 const videoTitle = {
   fontSize: 20,
+  margin: '32px, 0, 0',
+  fontWeight: 10,
 }
 const creatorName = {
   fontSize: 18,
@@ -13,6 +15,7 @@ const creatorName = {
 
 const cardContainer = {
   width: 700,
+  marginRight: 10,
 }
 
 const Card = (props) => (
@@ -23,7 +26,7 @@ const Card = (props) => (
       width={450}
     />
     <div style={textContainer}>
-      <p style={videoTitle}>{props.title}</p>
+      <h2 style={videoTitle}>{props.title}</h2>
       <p style={creatorName}>{props.creator}</p>
     </div>
   </div>
