@@ -2,7 +2,6 @@ import React from 'react';
 
 const text = {
   fontSize: 50,
-
 }
 
 const Header = (props) => (

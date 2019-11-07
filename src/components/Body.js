@@ -12,12 +12,15 @@ const Body = (props) => (
   <div style={bodyContainer}>
     <ContentRow
       category={lookBooks}
+      categoryTitle={"Look Books"}
     />
     <ContentRow
       category={vintage}
+      categoryTitle={"Vintage"}
     />
     <ContentRow
       category={fashionWeek}
+      categoryTitle={"Fashion Week"}
     />
   </div>
 );

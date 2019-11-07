@@ -1,8 +1,14 @@
 import React from 'react';
 import Iframe from './Iframe';
 
-const text = {
+const textContainer = {
   paddingTop: 300,
+}
+const videoTitle = {
+  fontSize: 20,
+}
+const creatorName = {
+  fontSize: 18,
 }
 
 const cardContainer = {
@@ -16,9 +22,9 @@ const Card = (props) => (
       height={300}
       width={450}
     />
-    <div style={text}>
-      <p>{props.title}</p>
-      <p>{props.creator}</p>
+    <div style={textContainer}>
+      <p style={videoTitle}>{props.title}</p>
+      <p style={creatorName}>{props.creator}</p>
     </div>
   </div>
 );
