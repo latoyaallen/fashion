@@ -6,25 +6,43 @@ import Footer from './components/Footer'
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {category: 'lookBooks', count: 0};
+    this.state = {view: 'home'};
     this.handleVideo = this.handleVideo.bind(this);
   }
 
   handleVideo(id) {
     window.open(`/video/${id}`, '_blank');
+    this.setState({view: 'video'});
   }
 
   componentDidMount() {
-    console.log(window.location.href);
+    const pathname = window.location.pathname.substring(1,6);
+    if(pathname === 'video') {
+      this.setState({view: 'video'});
+    }
+    if(pathname === '/') {
+      this.setState({view: 'home'});
+    }
   }
 
   render() {
-    return (
-      <div>
-        <Header />
+    let view;
+
+    if(this.state.view === 'home') {
+      view =
         <Body
           handleVideo={this.handleVideo}
         />
+    }
+
+    if(this.state.view === 'video') {
+      view = <p>It gets here</p>
+    }
+
+    return (
+      <div>
+        <Header />
+        {view}
         <Footer />
       </div>
     );
