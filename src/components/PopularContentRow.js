@@ -4,7 +4,7 @@ import Card from './Card';
 const cardsContainer = {
   display: 'flex',
   paddingLeft: 20,
-  paddingBottom: 75,
+  paddingBottom: 35,
 }
 
 const popularText ={
@@ -15,12 +15,23 @@ const popularText ={
 }
 
 const popularStyle = {
+  //backgroundColor: '#f9f4ee', // seashell
+  paddingBottom: 20,
+  paddingTop: 10,
+}
+
+const seashellBackground = {
   backgroundColor: '#f9f4ee', // seashell
-  paddingTop: 20,
+  height: '600px',
+  width: 2000,
+  zIndex: -1,
+  position: 'absolute',
+  marginBottom: 200,
 }
 
 const PopularContentRow = (props) => (
   <div style={popularStyle}>
+    <p style={seashellBackground}></p>
     <p style={popularText}>POPULAR</p>
     <div style={cardsContainer} >
       <Card
