@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import LookList from './LookList';
 
 const contentContainer = {
   display: 'flex',
@@ -20,7 +21,7 @@ const videoViewContainer = {
 }
 
 const Video = (props) => (
-  <div>
+  <div style={videoViewContainer}>
     <div style={contentContainer} >
       <Card
         src={"https://www.youtube.com/embed/RTmqYADBi1E"}
@@ -32,18 +33,7 @@ const Video = (props) => (
         id={200}
       />
     </div>
-    <h2>What you need to create these looks</h2>
-      <p>Black Heeled Boots</p>
-      <p>Camel Coat</p>
-      <p>Black Flared Trousers</p>
-      <p>Cropped Teddy Coat</p>
-      <p>Layerd Gold Necklace</p>
-      <p>White Shirt</p>
-      <p>Tan Belt</p>
-      <p>Grey Blazer</p>
-      <p>Black Biker Jacket</p>
-      <p>Black Cartigan</p>
-      <p>Dark Cranberry Boots</p>
+    <LookList />
   </div>
 );
 
