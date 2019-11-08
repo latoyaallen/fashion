@@ -4,6 +4,12 @@ const lookBooks = [
     "creator":"Samio",
     "title":"4 Super Simple Everyday Outfits Lookbook | Samio",
     "src":"https://www.youtube.com/embed/RTmqYADBi1E",
+    "coats": ['Camel Coat', 'Cropped Teddy', 'Coat Grey Blazer', 'Black Biker Jacket'],
+    "tops":['White Buttondown Shirt', 'Black Cardigan'],
+    "bottoms":[],
+    "jewelryAndAccessories":[],
+    "shoes":[],
+    "dresses":[],
   },
   {
     "id": "201",
