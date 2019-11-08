@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {view: 'home'};
+    this.state = {view: 'home', id: "0"};
     this.handleVideo = this.handleVideo.bind(this);
     this.handleHome = this.handleHome.bind(this);
   }
@@ -16,6 +16,8 @@ class App extends React.Component {
     window.location.assign(`/video/${id}`)
     //window.open(`/video/${id}`, '_blank');
     this.setState({view: 'video'});
+    console.log(id);
+    this.setState({id: id});
   }
 
   handleHome() {
@@ -46,6 +48,7 @@ class App extends React.Component {
       view =
       <Video
           handleVideo={this.handleVideo}
+          id={this.state.id}
         />
     }
 
