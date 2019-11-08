@@ -29,6 +29,7 @@ const PopularContentRow = (props) => (
         width={450}
         title={props.category[0].title}
         creator={props.category[0].creator}
+        category={"Street Style"}
       />
       <Card
         src={props.category[1].src}
@@ -36,6 +37,7 @@ const PopularContentRow = (props) => (
         width={450}
         title={props.category[1].title}
         creator={props.category[1].creator}
+        category={"Casual Looks"}
       />
       <Card
         src={props.category[2].src}
@@ -43,6 +45,7 @@ const PopularContentRow = (props) => (
         width={450}
         title={props.category[2].title}
         creator={props.category[2].creator}
+        category={"How To Style"}
       />
     </div>
   </div>

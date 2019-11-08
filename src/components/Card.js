@@ -28,6 +28,7 @@ const Card = (props) => (
     <div style={textContainer}>
       <h2 style={videoTitle}>{props.title}</h2>
       <p style={creatorName}>{props.creator}</p>
+      <p style={creatorName}>{props.category}</p>
     </div>
   </div>
 );

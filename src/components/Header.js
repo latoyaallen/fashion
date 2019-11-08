@@ -1,14 +1,16 @@
 import React from 'react';
 
 const text = {
-  fontSize: 50,
+  paddingTop: 5,
 }
 
 const Header = (props) => (
   <div style={text}>
-    <center>
-    Peach.Haus
-  </center>
+    <h1>
+      <center>
+        Peach.Haus
+      </center>
+    </h1>
   </div>
 );
 

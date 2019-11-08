@@ -8,11 +8,20 @@ import howToStyle from '../data/howToStyle';
 import mostPopular from '../data/mostPopular';
 
 const bodyContainer = {
-  paddingTop: 100,
+  paddingTop: 5,
+}
+
+const seashellBackground = {
+  backgroundColor: '#f9f4ee', // seashell
+  height: '300px',
+  width: '100%',
+  zIndex: -1,
+  position: 'absolute',
 }
 
 const Body = (props) => (
   <div style={bodyContainer}>
+    <p style={seashellBackground}></p>
     <ContentRow
       category={lookBooks}
       categoryTitle={"Autum Look Books"}
