@@ -14,7 +14,7 @@ const bodyContainer = {
 const seashellBackground = {
   backgroundColor: '#f9f4ee', // seashell
   height: '300px',
-  width: '100%',
+  width: 2000,
   zIndex: -1,
   position: 'absolute',
 }
