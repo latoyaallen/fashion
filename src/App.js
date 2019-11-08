@@ -14,9 +14,7 @@ class App extends React.Component {
 
   handleVideo(id) {
     window.location.assign(`/video/${id}`)
-    //window.open(`/video/${id}`, '_blank');
     this.setState({view: 'video'});
-    console.log(id);
     this.setState({id: id});
   }
 

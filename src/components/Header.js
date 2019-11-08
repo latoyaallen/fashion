@@ -5,8 +5,8 @@ const headerContainer = {
   display: 'flex',
 }
 
-const buildALook = {
-  paddingLeft: 420,
+const shopYourCloset = {
+  paddingLeft: 320,
   paddingTop: 30,
 }
 
@@ -30,7 +30,6 @@ const twitter = {
   color: 'black',
 }
 
-
 const Header = (props) => (
   <div style={headerContainer}>
     <p style={logoStyle}
@@ -38,8 +37,8 @@ const Header = (props) => (
     >
       Peach.Haus
     </p>
-    <p style={buildALook} >
-      Build A Look
+    <p style={shopYourCloset} >
+      Shop Your Closet
     </p>
     <a
       style={instagram}

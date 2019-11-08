@@ -17,33 +17,17 @@ const ContentRow = (props) => (
   <div>
     <p style={categoryTitle}>{props.categoryTitle}</p>
     <div style={contentContainer} >
+      {props.videos.map(d => (
       <Card
-        src={props.category[0].src}
+        src={d.src}
         height={300}
         width={450}
-        title={props.category[0].title}
-        creator={props.category[0].creator}
+        title={d.title}
+        creator={d.creator}
         handleVideo={props.handleVideo}
-        id={props.category[0].id}
+        id={d.id}
       />
-      <Card
-        src={props.category[1].src}
-        height={300}
-        width={450}
-        title={props.category[1].title}
-        creator={props.category[1].creator}
-        handleVideo={props.handleVideo}
-        id={props.category[1].id}
-      />
-      <Card
-        src={props.category[2].src}
-        height={300}
-        width={450}
-        title={props.category[2].title}
-        creator={props.category[2].creator}
-        handleVideo={props.handleVideo}
-        id={props.category[2].id}
-      />
+        ))}
     </div>
   </div>
 );
