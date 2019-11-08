@@ -15,7 +15,6 @@ const popularText ={
 }
 
 const popularStyle = {
-  //backgroundColor: '#f9f4ee', // seashell
   paddingBottom: 20,
   paddingTop: 10,
 }
@@ -41,6 +40,8 @@ const PopularContentRow = (props) => (
         title={props.category[0].title}
         creator={props.category[0].creator}
         category={"Street Style"}
+        handleVideo={props.handleVideo}
+        id={props.category[0].id}
       />
       <Card
         src={props.category[1].src}
@@ -49,6 +50,8 @@ const PopularContentRow = (props) => (
         title={props.category[1].title}
         creator={props.category[1].creator}
         category={"Casual Looks"}
+        handleVideo={props.handleVideo}
+        id={props.category[1].id}
       />
       <Card
         src={props.category[2].src}
@@ -57,6 +60,8 @@ const PopularContentRow = (props) => (
         title={props.category[2].title}
         creator={props.category[2].creator}
         category={"How To Style"}
+        handleVideo={props.handleVideo}
+        id={props.category[2].id}
       />
     </div>
   </div>

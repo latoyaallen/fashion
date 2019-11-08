@@ -25,21 +25,26 @@ const Body = (props) => (
     <ContentRow
       category={lookBooks}
       categoryTitle={"Autum Look Books"}
+      handleVideo={props.handleVideo}
     />
     <ContentRow
       category={vintage}
       categoryTitle={"Vintage"}
+      handleVideo={props.handleVideo}
     />
     <PopularContentRow
       category={mostPopular}
+      handleVideo={props.handleVideo}
     />
     <ContentRow
       category={fashionWeek}
       categoryTitle={"Fashion Week"}
+      handleVideo={props.handleVideo}
     />
     <ContentRow
       category={howToStyle}
       categoryTitle={"How To Style"}
+      handleVideo={props.handleVideo}
     />
   </div>
 );

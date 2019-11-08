@@ -8,6 +8,7 @@ const videoTitle = {
   fontSize: 20,
   margin: '32px, 0, 0',
   fontWeight: 10,
+  cursor: 'pointer',
 }
 const creatorName = {
   fontSize: 18,
@@ -26,7 +27,7 @@ const Card = (props) => (
       width={450}
     />
     <div style={textContainer}>
-      <h2 style={videoTitle}>{props.title}</h2>
+      <h2 style={videoTitle} onClick={props.handleVideo.bind(this, props.id)}>{props.title}</h2>
       <p style={creatorName}>{props.creator}</p>
       <p style={creatorName}>{props.category}</p>
     </div>
