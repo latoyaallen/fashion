@@ -42,6 +42,7 @@ const PopularContentRow = (props) => (
         creator={d.creator}
         handleVideo={props.handleVideo}
         id={d.id}
+        category={d.category}
       />
         ))}
     </div>

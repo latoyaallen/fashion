@@ -1,18 +1,21 @@
 const vintage = [
   {
     "id": "400",
+    "category":"vintage",
     "creator":"The Yusufs",
     "title":"COME VINTAGE SHOPPING WITH US | 7 TIPS | AMAZING FALL VINTAGE FINDS | THE YUSUFS",
     "src":"https://www.youtube.com/embed/1T7yCpQ9eqI",
   },
   {
     "id": "401",
+    "category":"vintage",
     "creator":"KarenBritChick",
     "title":"THRIFT SHOPPING IN NYC!! HOW TO SHOP THRIFT STORES LIKE A PRO!!",
     "src":"https://www.youtube.com/embed/GPvH6nvaEII",
   },
   {
     "id": "402",
+    "category":"vintage",
     "creator":"DadouChic",
     "title":"Consignment Shopping In Paris, I Got CHANEL Shoes...Reciproque | DadouChic",
     "src":"https://www.youtube.com/embed/jGHgdi4JftQ",

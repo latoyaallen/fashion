@@ -4,7 +4,6 @@ import PopularContentRow from './PopularContentRow';
 import lookBooks from '../data/lookBooks';
 import vintage from '../data/vintage';
 import fashionWeek from '../data/fashionWeek';
-import howToStyle from '../data/howToStyle';
 import mostPopular from '../data/mostPopular';
 
 const bodyContainer = {
@@ -20,7 +19,6 @@ const seashellBackground = {
 }
 
 const lookBookVideos = [lookBooks[0], lookBooks[1], lookBooks[2]];
-console.log(lookBookVideos);
 const vintageVideos = [vintage[0], vintage[1], vintage[2]];
 const popularVideos = [mostPopular[0], mostPopular[1], mostPopular[2]];
 const fashionWeekVideos = [fashionWeek[0], fashionWeek[1], fashionWeek[2]];
@@ -29,24 +27,24 @@ const Body = (props) => (
   <div style={bodyContainer}>
     <p style={seashellBackground}></p>
     <ContentRow
-      category={lookBooks}
+      category={"lookBooks"}
       categoryTitle={"Autum Look Books"}
       handleVideo={props.handleVideo}
       videos={lookBookVideos}
     />
     <ContentRow
-      category={vintage}
+      category={"vintage"}
       categoryTitle={"Vintage"}
       handleVideo={props.handleVideo}
       videos={vintageVideos}
     />
     <PopularContentRow
-      category={mostPopular}
+      category={"mostPopular"}
       handleVideo={props.handleVideo}
       videos={popularVideos}
     />
     <ContentRow
-      category={fashionWeek}
+      category={"fashionWeek"}
       categoryTitle={"Fashion Week"}
       handleVideo={props.handleVideo}
       videos={fashionWeekVideos}

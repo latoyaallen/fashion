@@ -29,7 +29,6 @@ const Card = (props) => (
     <div style={textContainer}>
       <h2 style={videoTitle} onClick={props.handleVideo.bind(this, props.id)}>{props.title}</h2>
       <p style={creatorName}>{props.creator}</p>
-      <p style={creatorName}>{props.category}</p>
     </div>
   </div>
 );

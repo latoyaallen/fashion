@@ -25,13 +25,14 @@ const Video = (props) => (
   <div style={videoViewContainer}>
     <div style={contentContainer} >
       <Card
-        src={videoSrc("lookBooks", videoId)}
+        src={videoSrc(videoId)}
         height={500}
         width={750}
         title={videoTitle("lookbooks", videoId)}
         creator={videoCreator("lookbooks", videoId)}
         handleVideo={props.handleVideo}
         id={props.id}
+        category={props.category}
       />
     </div>
     <LookList />
