@@ -9,19 +9,25 @@ class App extends React.Component {
     super(props);
     this.state = {view: 'home'};
     this.handleVideo = this.handleVideo.bind(this);
+    this.handleHome = this.handleHome.bind(this);
   }
 
   handleVideo(id) {
-    window.open(`/video/${id}`, '_blank');
+    window.location.assign(`/video/${id}`)
+    //window.open(`/video/${id}`, '_blank');
     this.setState({view: 'video'});
+  }
+
+  handleHome() {
+    window.location.assign(`/`)
+    this.setState({view: 'home'});
   }
 
   componentDidMount() {
     const pathname = window.location.pathname.substring(1,6);
     if(pathname === 'video') {
       this.setState({view: 'video'});
-    }
-    if(pathname === '/') {
+    } else {
       this.setState({view: 'home'});
     }
   }
@@ -45,7 +51,9 @@ class App extends React.Component {
 
     return (
       <div>
-        <Header />
+        <Header
+          handleHome={this.handleHome}
+        />
         {view}
         <Footer />
       </div>

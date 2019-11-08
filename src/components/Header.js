@@ -13,6 +13,7 @@ const buildALook = {
 const logoStyle= {
   paddingLeft: 600,
   fontSize: 30,
+  cursor: 'pointer',
 }
 
 const instagram = {
@@ -32,7 +33,9 @@ const twitter = {
 
 const Header = (props) => (
   <div style={headerContainer}>
-    <p style={logoStyle}>
+    <p style={logoStyle}
+      onClick={props.handleHome.bind()}
+    >
       Peach.Haus
     </p>
     <p style={buildALook} >
