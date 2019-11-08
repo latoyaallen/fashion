@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header'
 import Body from './components/Body'
+import Video from './components/Video'
 import Footer from './components/Footer'
 
 class App extends React.Component {
@@ -36,7 +37,10 @@ class App extends React.Component {
     }
 
     if(this.state.view === 'video') {
-      view = <p>It gets here</p>
+      view =
+      <Video
+          handleVideo={this.handleVideo}
+        />
     }
 
     return (
