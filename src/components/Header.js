@@ -38,7 +38,6 @@ const Header = (props) => (
       Peach.Haus
     </p>
     <p style={shopYourCloset} >
-      Shop Your Closet
     </p>
     <a
       style={instagram}
