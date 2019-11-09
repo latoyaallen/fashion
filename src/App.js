@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './components/Header'
 import Body from './components/Body'
 import Video from './components/Video'
-import Footer from './components/Footer'
 
 class App extends React.Component {
   constructor(props) {
@@ -56,7 +55,6 @@ class App extends React.Component {
           handleHome={this.handleHome}
         />
         {view}
-        <Footer />
       </div>
     );
   }

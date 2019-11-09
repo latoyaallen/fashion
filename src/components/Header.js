@@ -11,7 +11,7 @@ const shopYourCloset = {
 }
 
 const logoStyle= {
-  paddingLeft: 600,
+  paddingLeft: 640,
   fontSize: 30,
   cursor: 'pointer',
 }
