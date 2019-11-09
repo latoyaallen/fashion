@@ -12,9 +12,9 @@ class App extends React.Component {
   }
 
   handleVideo(id) {
-    window.location.assign(`/video/${id}`)
-    this.setState({view: 'video'});
-    this.setState({id: id});
+    //   window.location.assign(`/video/${id}`)
+    // this.setState({view: 'video'});
+    //this.setState({id: id});
   }
 
   handleHome() {
