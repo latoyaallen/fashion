@@ -1,2 +1,2 @@
 # Style Video
-Stream the fashion videos.
+Stream fashion videos.
